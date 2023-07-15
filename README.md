@@ -14,7 +14,7 @@ This project is a basic website template created with HTML and CSS. It serves as
 
 ## Demo
 
-You can view a live demo of the website [https://zsimo99.github.io/BasicWebTemplate-1](link-to-demo).
+You can view a live demo of the website [here](https://zsimo99.github.io/BasicWebTemplate-1/).
 
 
 ## Contributing
