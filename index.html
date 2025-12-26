@@ -241,8 +241,25 @@
     <!-- end contact -->
     <!-- start footer  -->
     <div class="footer">
-        &copy; 2021 <span>LEON</span> All Right Reserved
+        &copy; 2025 <span>LEON</span> All Right Reserved
     </div>
     <!-- end footer  -->
+    
+    <!-- Scroll to top button -->
+    <div class="scroll-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+      <i class="fa-solid fa-arrow-up"></i>
+    </div>
+    
+    <script>
+      // Show/hide scroll to top button
+      window.addEventListener('scroll', function() {
+        const scrollTop = document.querySelector('.scroll-top');
+        if (window.scrollY > 500) {
+          scrollTop.classList.add('visible');
+        } else {
+          scrollTop.classList.remove('visible');
+        }
+      });
+    </script>
   </body>
 </html>
